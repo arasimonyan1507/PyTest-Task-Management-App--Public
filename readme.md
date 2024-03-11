@@ -20,26 +20,12 @@ To run this project, you need the following modules installed:
 
 You can install the required modules using pip:
 
+```
 pip install -r requirements.txt 
-# Setup Project
-To set up the project, follow these steps:
-
-Clone the repository to your local machine.
-Set up a virtual environment (venv) for the required modules.
-python -m venv venv
-Activate the virtual environment.
-
-On Windows:
 ```
-venv\Scripts\activate
-```
-On macOS and Linux:
 
- bash
-source venv/bin/activate
-
-Navigate to the main directory of the project.
- bash
-cd path/to/project/directory
+## Run tests
 Run the following command to execute pytest:
+```
 pytest
+```
